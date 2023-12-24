@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.element-buttons {
+    padding-top: 100px;
+}
+
+.btn-one {
+    color: white;
+    background: black;
+    padding: 20px 40px;
+    border: none;
+    outline: none;
+    transition: .4s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-one:hover {
+    color: white;
+    background: blue;
+    transform: scale(1.1);
+}
+
+.btn-two {
+    color: white;
+    background: red;
+    padding: 20px 40px;
+    border: none;
+    outline: none;
+    transition: .4s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-two:focus {
+    color: black;
+    background: chartreuse;
+    transform: scale(1.1);
+}
+
+.btn-three {
+    color: white;
+    background: rebeccapurple;
+    padding: 20px 40px;
+    transition: .4s;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.btn-three:active {
+    color: black;
+    background: aqua;
+    transform: scale(1.1);
+}
+
+.element-buttons h1 {
+    color: black;
+    font-size: 33px;
+    font-weight: 600;
+    transition: .4s;
+    font-family: sans-serif;
+    padding: 20px 0;
+}
+
+.element-buttons h1:hover {
+    color: rebeccapurple;
+}
+
+.element-buttons a {
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.element-buttons a:hover {
+    color: blue;
+    text-decoration: underline;
+}
